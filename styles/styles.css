@@ -1,0 +1,196 @@
+/* reset styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common styling */
+
+
+.open-sans-font{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.container{
+    max-width:100rem;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.orange{
+    color: #FD6E0A;
+}
+.section-heading{
+    font-size:2.188rem ;
+    color: #181818;
+
+}
+.section-details{
+    font-size: 1.125rem;
+    color: #757575;
+}
+.btn{
+    background-color: #FD6E0A ;
+    padding:1.125rem 2.188rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border: none;
+}
+/* header style */
+header{
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-color: #fff8f3;
+    margin-bottom: 7.75rem;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 2.813rem;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style:none;
+    margin-right: 50px;    
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a{
+    font-size: 1.25rem;
+    color:#474747;
+}
+
+
+/* hero style */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    width: 36.56rem;
+    margin-left: 2.5rem;
+
+}
+.hero-content h3{
+    font-size: 2.813rem;
+    font-weight: 600;
+}
+.hero-content h1{
+    font-size: 5.313rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+.hero-content p{
+    margin-bottom: 1.875rem;
+}
+.hero-content .links{
+    display: flex;
+    gap:1.25rem;
+}
+/* about section style */
+.about{
+    background-color: #fff8f3;
+    max-width: 71.25rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 7.125rem;
+}
+.about-container{
+    max-width: 51.68rem;
+    background-color: #ffffff;
+    margin: 7.8rem auto;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-data p{
+    font-size: 1.25rem;
+    color: #757575
+}
+.about-data p:last-child{
+    font-weight: 600;
+    color: #474747;
+}
+/* skill section style */
+.skills{
+    max-width: 56.813rem;
+    margin: 0 auto;
+}
+.skills .section-details{
+    margin: 3.125rem;
+}
+.skill-card{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.skill{
+    box-shadow: 0 6px 50px  rgba(0,0,0,0.6);
+    padding: 1.875rem;
+    margin-bottom: 18rem;
+}
+.skill .skill-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+.skill .skill-details{
+    font-size: 1rem;
+    color: #757575;
+}
+
+.resume .section-heading{
+    text-align: center;
+    margin-bottom: 113px;
+}
+.resume-details{
+    max-width: 1093px;
+    margin: 0 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+}
+.resume-details .education h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-details .education .course-name{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-details .education .course-institution{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: ;
+}
+.resume-details hr{
+    color: #d1d1d1;
+}
